@@ -12,6 +12,8 @@ title: Wallet
   </div>
 
 <aside class="aside">
-    <p>this is the aside stuff</p>
+    <p>This is my wallet. This holds my Id, credit cards, money, Costco membership card.</p>
+
+    <p> I can't leave my house without my wallet. It is very essential to life and my daily needs.</p>
 </aside>
   </div>
