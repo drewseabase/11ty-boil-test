@@ -11,12 +11,16 @@ title: 11ty Boilerplate
   <link rel="stylesheet" href="/styles/screen.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
-  </nav>
+  <header class="site_header">
+    {% include 'nav' %}
+  </header>
+
+  <main class="page_content">
     {{ content }}
+  </main>
+
+  <footer class="site_footer">
+    <p> &copy; 2025 Drew Seabase - Stuff I Don't Leave Home Without</p>
+  </footer>
 </body>
 </html>

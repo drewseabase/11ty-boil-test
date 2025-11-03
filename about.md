@@ -3,5 +3,5 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
+<h1><strong>{{title}}</strong></h1>
 <img class="about" alt="pine" src="/images/pine.png" width="50" />
