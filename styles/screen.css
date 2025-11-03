@@ -104,9 +104,7 @@ img{
 
 .main-card{
     max-width: 400px;
-    height: auto;
-    margin: 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
     background: linear-gradient(90deg, #ff9019, #9b66cc);
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(1,1,1,1);
@@ -129,8 +127,28 @@ img{
 }
 
 .page-two-col{
-  display: grid;
-  grid-template-columns: 550px 1fr; 
-  gap: 24px;
-  align-items: start;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  max-width: 980px;
+  margin: 2rem auto;
+}
+
+.page-two-col > .main-card,
+.page-two-col > .aside{
+  margin: 0;                
+  flex: 0 1 400px;  
+}
+
+.aside{
+    max-width: 500px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: linear-gradient(90deg, #ff9019, #9b66cc);
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(1,1,1,1);
+    overflow: hidden;
+    color: black;
 }
