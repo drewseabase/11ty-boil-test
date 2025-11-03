@@ -13,6 +13,8 @@ title: iPhone
   </div>
 
 <aside class="aside">
-    <p>this is the aside stuff</p>
+    <p>This is my brand new iPhone 16e that I got at the start of November. My old phone broke the day before. I accidentally dropped it down the stairs and the screen shattered.</p>
+
+<p> I never leave home without my phone. It is my main form of communication and general life. I use it daily for music, navigation, communication, emails etc.  </p>
 </aside>
   </div>

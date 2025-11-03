@@ -13,7 +13,7 @@ title: Headphones
   </div>
 
 <aside class="aside">
-    <p>this is the aside stuff</p>
+    <p>These are my Beats. I found these out on the side of the road and cleaned them up</p>
 </aside>
   </div>
 

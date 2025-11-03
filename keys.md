@@ -12,6 +12,8 @@ title: Keys
   </div>
 
 <aside class="aside">
-    <p>this is the aside stuff</p>
+    <p>These are my car keys. I like to travel and drive around a lot so having these everywhere I go is essential.</p>
+
+    <p> The main places I tend to travel are Ann Arbor, Traverse City, and class! </p>
 </aside>
   </div>

@@ -148,7 +148,7 @@ img{
     padding: 2rem;
     background: linear-gradient(90deg, #ff9019, #9b66cc);
     border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(1,1,1,1);
+    box-shadow: 0 8px 24px rgba(1.5,1.5,1.5,1.5);
     overflow: hidden;
     color: black;
 }
