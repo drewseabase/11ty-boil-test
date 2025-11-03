@@ -5,17 +5,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("**/*.jpg");
 
-  eleventyConfig.addPairedShortcode("why", (content, title = "Why I carry this") => {
+  eleventyConfig.addShortcode("siteFooter", (name = "Drew Seabase", tagline = "Stuff I Don't Leave Home Without") => {
+    const year = new Date().getFullYear();
     return `
-      <section class="why-card">
-        <h3>${title}</h3>
-        <p>${content}</p>
-      </section>
+      <footer class="site-footer">
+        <p>&copy; ${year} ${name} – ${tagline}</p>
+      </footer>
     `;
   });
-
-  return {
-    dir: { input: ".", includes: "_includes", output: "_site" }
-  };
-
     }

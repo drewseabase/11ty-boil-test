@@ -16,6 +16,7 @@ title: Headphones
     <p>These are my Beats. I found these out on the side of the road and cleaned them up.</p>
 
     <p> I love listening to music so much. My main playlist has around 3,500 songs on it. My headphones are essential to everyday life for me </p>
+    
 </aside>
   </div>
 
