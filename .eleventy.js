@@ -5,11 +5,17 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("**/*.jpg");
 
-  eleventyConfig.addShortcode("user", function(name, twitterUsername){
-    return `<div class="user" >
-      <div class="user_name">${name}</div>
-      <div class="user_twitter">@${twitterUsername}</div>
-    </div>`;
-      
-      });
+  eleventyConfig.addPairedShortcode("why", (content, title = "Why I carry this") => {
+    return `
+      <section class="why-card">
+        <h3>${title}</h3>
+        <p>${content}</p>
+      </section>
+    `;
+  });
+
+  return {
+    dir: { input: ".", includes: "_includes", output: "_site" }
+  };
+
     }
