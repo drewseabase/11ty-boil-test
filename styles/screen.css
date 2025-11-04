@@ -163,8 +163,38 @@ img{
     font-size: 1.8rem;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
     nav ul {display:none;}
     nav ul.show{display: flex;}
-    .menu-toggle{display:block;}
+    .menu-toggle{
+        display:block; 
+        margin: 40px auto 0 auto;
+        width: 100%;
+        max-width: 510px;
+        border-radius: 50px;
+        background: #4c4e5a;}
+    
+    .menu-toggle ul{
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu-toggle ul li {list-style-type: none; margin: 0;}
+
+    .menu-toggle ul li i{
+        display: inline-block;
+        padding: 20px;
+        color: #eae8ff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .menu-toggle ul li i:hover{
+        border-radius: 50px;
+        background: linear-gradient(45deg,#ff9019 0%, #9b66cc 100%);
+        color: black;
+    }
 }
