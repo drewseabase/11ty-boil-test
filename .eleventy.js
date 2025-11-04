@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("**/*.jpg");
+  eleventyConfig.addPassthroughCopy("assets");
 
   eleventyConfig.addShortcode("siteFooter", (name = "Drew Seabase", tagline = "Stuff I Don't Leave Home Without") => {
     const year = new Date().getFullYear();
